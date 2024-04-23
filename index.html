@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const students = ["uddhav", "avdhut", "more", "mahesh", "adesh"];
+        console.log(students.length);
+        console.log(students);
+
+        students.push("aman");
+        console.log(students);
+
+        students.pop();
+        console.log(students);
+
+        students.unshift("aman");
+        console.log(students);
+
+        students.shift();
+        console.log(students);
+
+        students.splice(1, 2, "sonu", "adi");
+        console.log(students);
+
+        console.log(students.join("*"));
+
+        students.reverse();
+        console.log(students);
+
+        students.sort();
+        console.log(students);
+
+        const index = students.indexOf("uddhav");
+        console.log(index);
+
+        console.log(students.includes('mahesh'));
+        console.log(students.includes('jai'));
+
+    </script>
+</body>
+
+</html>
